@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { Menu, X, Linkedin, Mail, Music, BookOpen, Users, Briefcase, GraduationCap } from 'lucide-react';
 
-export default function Home() {
+function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -311,3 +311,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;
